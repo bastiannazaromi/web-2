@@ -33,6 +33,7 @@ class Welcome extends CI_Controller
 		$data = $this->M_Latihan->ambilData();
 		echo $data;
 		die;
+		
 		$this->load->view('latihan');
 	}
 }
