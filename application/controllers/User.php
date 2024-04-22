@@ -29,9 +29,9 @@ class User extends CI_Controller
 
 	public function store()
 	{
-		$nama = $this->input->post('nama', true);
+		$nama     = $this->input->post('nama', true);
 		$username = $this->input->post('username', true);
-		$email = $this->input->post('email', true);
+		$email    = $this->input->post('email', true);
 
 		$data = [
 			'nama'     => $nama,
